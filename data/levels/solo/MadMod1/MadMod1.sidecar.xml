@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Metadata>
+  <Header>
+    <MainRev>0</MainRev>
+    <PointRev>6</PointRev>
+    <Description>Forged in Foundry</Description>
+    <Created>2024-02-19 19:28:35</Created>
+    <By>Alexander</By>
+    <SourceBlend>levels\solo\MadMod1\models\work\MadMod1.blend</SourceBlend>
+    <DirectoryType>TAE.Shared.NWOAssetDirectory</DirectoryType>
+    <Schema>1</Schema>
+  </Header>
+  <Asset Name="madmod1" Type="scenario">
+    <OutputTagCollection>
+      <OutputTag Type="scenario_lightmap">levels\solo\madmod1\madmod1_faux_lightmap</OutputTag>
+      <OutputTag Type="structure_seams">levels\solo\madmod1\madmod1</OutputTag>
+      <OutputTag Type="scenario">levels\solo\madmod1\madmod1</OutputTag>
+    </OutputTagCollection>
+  </Asset>
+  <Folders>
+    <Reference>\reference</Reference>
+    <Temp>\temp</Temp>
+    <SourceModels>\models\work</SourceModels>
+    <GameModels>\models</GameModels>
+    <GamePhysicsModels>\models</GamePhysicsModels>
+    <GameCollisionModels>\models</GameCollisionModels>
+    <ExportModels>\export\models</ExportModels>
+    <ExportPhysicsModels>\export\models</ExportPhysicsModels>
+    <ExportCollisionModels>\export\models</ExportCollisionModels>
+    <SourceAnimations>\animations\work</SourceAnimations>
+    <AnimationsRigs>\animations\rigs</AnimationsRigs>
+    <GameAnimations>\animations</GameAnimations>
+    <ExportAnimations>\export\animations</ExportAnimations>
+    <SourceBitmaps>\bitmaps</SourceBitmaps>
+    <GameBitmaps>\bitmaps</GameBitmaps>
+    <CinemaSource>\cinematics</CinemaSource>
+    <CinemaExport>\export\cinematics</CinemaExport>
+    <ExportBSPs>\models</ExportBSPs>
+    <SourceBSPs>\models</SourceBSPs>
+    <RigFlags>\animations\rigs\flags</RigFlags>
+    <RigPoses>\animations\rigs\poses</RigPoses>
+    <RigRenders>\animations\rigs\render</RigRenders>
+    <Scripts>\scripts</Scripts>
+    <FacePoses>\animations\rigs\poses\face_poses</FacePoses>
+    <CinematicOutsource>\outsource</CinematicOutsource>
+  </Folders>
+  <FaceCollections>
+    <FaceCollection Name="global materials override" StringTable="connected_geometry_global_material_table" Description="Global material overrides">
+      <FaceCollectionEntries>
+        <FaceCollectionEntry Index="0" Name="default" Active="true"/>
+      </FaceCollectionEntries>
+    </FaceCollection>
+  </FaceCollections>
+  <Contents>
+    <Content Name="madmod1_halo" Type="bsp">
+      <ContentObject Name="" Type="scenario_structure_bsp">
+        <ContentNetwork Name="madmod1_halo" Type="">
+          <InputFile>levels\solo\MadMod1\models\work\MadMod1.blend</InputFile>
+          <IntermediateFile>levels\solo\madmod1\export\models\madmod1_halo.gr2</IntermediateFile>
+        </ContentNetwork>
+        <OutputTagCollection>
+          <OutputTag Type="scenario_structure_bsp">levels\solo\madmod1\madmod1_halo</OutputTag>
+          <OutputTag Type="scenario_structure_lighting_info">levels\solo\madmod1\madmod1_halo</OutputTag>
+        </OutputTagCollection>
+      </ContentObject>
+    </Content>
+  </Contents>
+</Metadata>
